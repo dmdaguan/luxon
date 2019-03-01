@@ -4,6 +4,12 @@
 
 Luxon is a library for working with dates and times in Javascript.
 
+Luxon是一个强大、现代的轻量级 Javascript 日期库，具有如下特性：
+● 日期时间，持续时间和间隔类型。
+● 明确的API。
+● 提供了日期格式化、日期解析等常用的自定义功能
+● 任意日期转换成多种不同的格式（本地时区、国际时区等）
+
 ```js
 DateTime.local().setZone('America/New_York').minus({ weeks: 1 }).endOf('day').toISO();
 ```
